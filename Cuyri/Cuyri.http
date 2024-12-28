@@ -1,0 +1,6 @@
+@Cuyri_HostAddress = http://localhost:5062
+
+GET {{Cuyri_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
