@@ -8,10 +8,15 @@ namespace Cuyri.Controller;
 [Route("api/[controller]")]
 public class UsersController(ApplicationDbContext context): ControllerBase
 {
-    [HttpGet]
-    public async Task<IActionResult> GetUsers()
+    [HttpGet("{id}")]
+    public async Task<IActionResult> GetUser(int id)
     {
-        return Ok(await context.Users.ToListAsync());
+        var user = await context.Users.FirstOrDefaultAsync(u => u.Id == id);
+        if (user == null)
+        {
+            return NotFound();
+        }
+        return Ok(user);
     }
 
     [HttpPost]
@@ -19,6 +24,6 @@ public class UsersController(ApplicationDbContext context): ControllerBase
     {
         context.Users.Add(user);
         await context.SaveChangesAsync();
-        return CreatedAtAction(nameof(GetUsers), new { id = user.Id }, user);
+        return CreatedAtAction(nameof(GetUser), new { id = user.Id }, user);
     }
 }

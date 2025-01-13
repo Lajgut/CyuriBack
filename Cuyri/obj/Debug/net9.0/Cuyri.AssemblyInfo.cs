@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cuyri")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d14c1735d2203e826c4fe603aa30d3c65dd15c71")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cuyri")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cuyri")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

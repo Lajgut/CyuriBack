@@ -159,3 +159,4 @@
 /Users/k.bitkov/Developer/aspnet/Cuyri/Cuyri/bin/Debug/net9.0/Microsoft.AspNet.Identity.Core.dll
 /Users/k.bitkov/Developer/aspnet/Cuyri/Cuyri/bin/Debug/net9.0/Microsoft.AspNet.Identity.EntityFramework.dll
 /Users/k.bitkov/Developer/aspnet/Cuyri/Cuyri/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/k.bitkov/Developer/aspnet/Cuyri/Cuyri/obj/Debug/net9.0/Cuyri.sourcelink.json
